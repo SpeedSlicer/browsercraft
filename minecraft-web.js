@@ -71,7 +71,7 @@ export default class MinecraftClient {
     this.#progress.style.display = 'unset';
     const jarPath = "/files/client_1.2.5.jar"
     await downloadFileToCheerpJ(
-      "https://piston-data.mojang.com/v1/objects/4a2fac7504182a97dcbcd7560c6392d7c8139928/client.jar",
+      "https://github.com/SpeedSlicer/browsercraft/raw/refs/heads/main/client.jar",
       jarPath,
       (downloadedBytes, totalBytes) => {
         this.#progress.value = downloadedBytes;
